@@ -13,3 +13,12 @@ print("f", text[1::2])
 print("g", text[::-1])
 print("h", text[::-2])
 print("i", len(text))
+
+print("Дз 8")
+s = input("Введіть рядок")
+ch = input("Введіть символ")
+for i in range(len(s)):
+    if s[i] == ch:
+        print(i)
+
+
