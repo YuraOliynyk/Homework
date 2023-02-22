@@ -9,6 +9,21 @@ for i in b:
         d[i] = 1
 print(d)
 
+print("Дз 13")
+dict_1 = {
+  'apple': ['malum', 'pomum', 'popula'],
+  'fruit': ['baca', 'bacca', 'popum'],
+  'punishment': ['malum', 'multa']
+}
+dict_2 = {}
+for key, value in dict_1.items():
+    for i in value:
+        if i not in dict_2:
+            dict_2[i] = [key]
+        else:
+            dict_2[i].append(key)
+for key, values in dict_2.items():
+    print(f"  '{key}': {values},")
 
 
 
