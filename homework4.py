@@ -20,4 +20,5 @@ while True:
         break
     b.append(num)
 k = int(input("Введіть індекс"))
-b.pop(k), b.pop(), print(b)
+b = b[:k] + b[k+1:]
+print(b)
