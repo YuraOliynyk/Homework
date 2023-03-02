@@ -33,7 +33,7 @@ print("Дз 19")
 text = str(input("Введіть текст"))
 def hash_tag_creator(text):
     if not text:
-        return "Введіть текст"
+        raise AttributeError("text must be")
     if len(text) > 140:
         return False
     words = text.split()
