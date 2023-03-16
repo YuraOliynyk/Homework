@@ -1,4 +1,4 @@
-print("Дз 23 ")
+print("Дз 23")
 class Counter:
 
     def __init__(self, min_value, max_value, start_value):
